@@ -44,14 +44,6 @@ and on the `application.css` file, be sure to require the `font-awesome-rails` f
 
 And you're ready to use the HTML structure of the Bootstrap based admin theme SB Admin on your Rails application. All the details and documentation about this are [here](http://startbootstrap.com/template-overviews/sb-admin/).
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/dreamingechoes/bootstrap_sb_admin_base_v1. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
 ----------------------------
 
 This project was developed by [dreamingechoes](https://github.com/dreamingechoes).
