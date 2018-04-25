@@ -26,20 +26,22 @@ Or install it yourself as:
 
 ## Usage
 
-This gem has two dependencies: `jquery-rails` and `font-awesome-rails` in order to keep updated the versions of **jQuery** and **font-awesome**, so be sure to require `jquery-rails` on your `application.js` before require the `bootstrap_sb_admin_base_v1` file like so:
+This gem has three dependencies: `jquery-rails`, `font-awesome-sass` and `bootstrap` in order to keep updated the versions of **jQuery**, **Font Awesome** and **Bootstrap**, so be sure to require these on your `application.js` before requiring the `bootstrap_sb_admin_base_v1` file like so:
 
 ```ruby
-  //= require jquery
+  //= require jquery3
+  //= require popper
+  //= require bootstrap
   //= require bootstrap_sb_admin_base_v1
-  //= require turbolinks
-  //= require_tree .
 ```
 
-and on the `application.css` file, be sure to require the `font-awesome-rails` file:
+and on the `application.scss` file, be sure to require the `font-awesome-sass` and `bootstrap` file:
 
 ```ruby
-  *= require font-awesome
-  *= require bootstrap_sb_admin_base_v1
+    @import 'bootstrap';
+    @import 'font-awesome-sprockets';
+    @import 'font-awesome';
+    @import 'bootstrap_sb_admin_base_v1';
 ```
 
 And you're ready to use the HTML structure of the Bootstrap based admin theme SB Admin on your Rails application. All the details and documentation about this are [here](http://startbootstrap.com/template-overviews/sb-admin/).
