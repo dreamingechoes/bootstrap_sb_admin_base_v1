@@ -6,8 +6,8 @@ require 'bootstrap_sb_admin_base_v1/version'
 Gem::Specification.new do |spec|
   spec.name          = "bootstrap_sb_admin_base_v1"
   spec.version       = BootstrapSbAdminBaseV1::VERSION
-  spec.authors       = ["Ivan Gonzalez"]
-  spec.email         = ["xixon.sound@gmail.com"]
+  spec.authors       = ["Ivan Gonzalez", "Neemias Freitas"]
+  spec.email         = ["xixon.sound@gmail.com", "neemiasvf@gmail.com"]
 
   spec.summary       = "Rails gem of the Bootstrap based admin theme SB Admin"
   spec.description   = "Rails gem of the Bootstrap based admin theme SB Admin. Originally created by Start Bootstrap. You could check the original theme on https://github.com/BlackrockDigital/startbootstrap-sb-admin"
@@ -20,5 +20,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "jquery-rails"
-  spec.add_runtime_dependency "font-awesome-rails"
+  spec.add_runtime_dependency "font-awesome-sass"
+  spec.add_runtime_dependency "bootstrap"
 end

@@ -1,5 +1,3 @@
-//= require bootstrap/bootstrap.js
-//= require bootstrap/bootstrap.bundle.js
 //= require chartjs/chart.js
 //= require datatables/datatables.js
 //= require sb-admin/sb-admin.js
